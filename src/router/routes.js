@@ -11,6 +11,10 @@ import Maps from "@/pages/Maps.vue";
 import Typography from "@/pages/Typography.vue";
 import TableList from "@/pages/TableList.vue";
 
+/* Our Code*/
+import Tasks from "@/pages/Tasks.vue"
+import MyTrees from "@/pages/MyTrees.vue"
+
 const routes = [
   {
     path: "/",
@@ -51,6 +55,17 @@ const routes = [
         path: "table-list",
         name: "table-list",
         component: TableList
+      },
+      /* Our Code start*/
+      {
+        path: "tasks",
+        name: "tasks",
+        component: Tasks
+      },
+      {
+        path: "my-trees",
+        name: "my-trees",
+        component: MyTrees
       }
     ]
   },

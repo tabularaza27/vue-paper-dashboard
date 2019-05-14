@@ -89,7 +89,7 @@ export default {
         {
           type: "warning",
           icon: "ti-server",
-          title: "Capacity",
+          title: "Capacy",
           value: "105GB",
           footerText: "Updated now",
           footerIcon: "ti-reload"
