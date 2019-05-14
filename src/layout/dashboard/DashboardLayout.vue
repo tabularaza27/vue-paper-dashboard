@@ -5,7 +5,7 @@
         <!--Our Code Start -->
         <sidebar-link to="/tasks" name="Tasks" icon="ti-pencil"/>
         <sidebar-link to="/my-trees" name="My Trees" icon="ti-anchor"/>
-        <sidebar-link to="/register" name="Register Tree" icon="ti-search"/>
+        <sidebar-link to="/scan-tree" name="Scan Tree" icon="ti-search"/>
         <!-- Our Code End -->
         <sidebar-link to="/dashboard" name="Dashboard" icon="ti-panel"/>
         <sidebar-link to="/stats" name="User Profile" icon="ti-user"/>

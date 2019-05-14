@@ -24,9 +24,10 @@
 
 <script>
     export default {
+      name: "Tasks",
       data () {
         return {
-          name: "Tasks",
+
           /* Our Code*/
           tasks: [
             {
