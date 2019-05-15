@@ -2,7 +2,7 @@
     <div class="row">
       <div class="col-xl-4 col-lg-5 col-md-6">
         <user-card>
-
+          <p>Hello World</p>
         </user-card>
         <members-card>
 
