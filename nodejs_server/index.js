@@ -34,6 +34,9 @@ app.use(bodyParser());
 var treeRoutes = require("./tree/tree_routes.js");
 app.use("/tree", treeRoutes);
 
+var polygonRoutes = require("./polygon/polygon_routes.js");
+app.use("/polygon", polygonRoutes);
+
 app.get('/test', function(req, res){
     res.send('hello world');
 });

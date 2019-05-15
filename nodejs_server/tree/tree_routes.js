@@ -6,7 +6,7 @@ var treeModel = require('./tree_model')
 router.get('/', function (req, res, next) {
     treeModel.find({},function (err, trees) {
         console.log('trees-list');
-        console.log(trees);
+        //console.log(trees);
         res.json(trees);
     });
 });
