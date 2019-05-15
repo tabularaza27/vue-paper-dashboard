@@ -9,6 +9,7 @@ import ChartCard from "./Cards/ChartCard.vue";
 import StatsCard from "./Cards/StatsCard.vue";
 
 import SidebarPlugin from "./SidebarPlugin/index";
+import SingleTreeModal from "./SingleTreeModal.vue"
 
 let components = {
   FormGroupInput,
@@ -17,7 +18,8 @@ let components = {
   StatsCard,
   PaperTable,
   DropDown,
-  SidebarPlugin
+  SidebarPlugin,
+  SingleTreeModal
 };
 
 export default components;
@@ -30,5 +32,6 @@ export {
   PaperTable,
   DropDown,
   Button,
-  SidebarPlugin
+  SidebarPlugin,
+  SingleTreeModal
 };
