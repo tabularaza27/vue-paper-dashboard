@@ -4,16 +4,17 @@
       <template slot="links">
         <!--Our Code Start -->
         <sidebar-link to="/tasks" name="Tasks" icon="ti-pencil"/>
-        <sidebar-link to="/my-trees" name="My Trees" icon="ti-anchor"/>
+        <sidebar-link to="/my-trees" name="My Trees" icon="ti-map"/>
         <sidebar-link to="/scan-tree" name="Scan Tree" icon="ti-search"/>
+        <sidebar-link to="/stats" name="User" icon="ti-user"/>
         <!-- Our Code End -->
-        <sidebar-link to="/dashboard" name="Dashboard" icon="ti-panel"/>
-        <sidebar-link to="/stats" name="User Profile" icon="ti-user"/>
-        <sidebar-link to="/table-list" name="Table List" icon="ti-view-list-alt"/>
-        <sidebar-link to="/typography" name="Typography" icon="ti-text"/>
-        <sidebar-link to="/icons" name="Icons" icon="ti-pencil-alt2"/>
-        <sidebar-link to="/maps" name="Map" icon="ti-map"/>
-        <sidebar-link to="/notifications" name="Notifications" icon="ti-bell"/>
+<!--        <sidebar-link to="/dashboard" name="Dashboard" icon="ti-panel"/>-->
+
+<!--        <sidebar-link to="/table-list" name="Table List" icon="ti-view-list-alt"/>-->
+<!--        <sidebar-link to="/typography" name="Typography" icon="ti-text"/>-->
+<!--        <sidebar-link to="/icons" name="Icons" icon="ti-pencil-alt2"/>-->
+<!--        <sidebar-link to="/maps" name="Map" icon="ti-map"/>-->
+<!--        <sidebar-link to="/notifications" name="Notifications" icon="ti-bell"/>-->
       </template>
       <mobile-menu>
         <li class="nav-item">
