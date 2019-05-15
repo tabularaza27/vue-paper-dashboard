@@ -37,6 +37,9 @@ app.use("/tree", treeRoutes);
 var polygonRoutes = require("./polygon/polygon_routes.js");
 app.use("/polygon", polygonRoutes);
 
+var taskRoutes = require("./task/task_routes.js");
+app.use("/task", taskRoutes);
+
 app.get('/test', function(req, res){
     res.send('hello world');
 });
