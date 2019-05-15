@@ -13,8 +13,11 @@ router.get('/', function (req, res, next) {
 
 /* GET a bar from ID */
 router.get('/:tree_id', function (req, res, next) {
-    //return the tree with id = tree_id
-    res.json('') 
+    treeModel.find({id: req.params.tree_id},function (err, trees) {
+        console.log('trees-list');
+        //console.log(trees);
+        res.json(trees);
+    });
 });
 
 module.exports = router;
