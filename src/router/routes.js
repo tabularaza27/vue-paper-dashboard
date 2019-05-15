@@ -15,6 +15,7 @@ import TableList from "@/pages/TableList.vue";
 import Tasks from "@/pages/Tasks.vue"
 import MyTrees from "@/pages/MyTrees.vue"
 import ScanTree from "@/pages/ScanTree.vue"
+import Json from "@/pages/Json.vue"
 
 const routes = [
   {
@@ -72,6 +73,11 @@ const routes = [
         path: "scan-tree",
         name: "scan-tree",
         component: ScanTree
+      },
+      {
+        path: "json",
+        name: "json",
+        component: Json
       }
     ]
   },

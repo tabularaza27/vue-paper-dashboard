@@ -10,16 +10,20 @@
     "dev": "vue-cli-service serve --open"
   },
   "dependencies": {
+    "@tensorflow/tfjs": "0.14.0",
+    "axios": "^0.18.0",
     "bootstrap": "^4.0.0",
     "chartist": "^0.11.0",
     "es6-promise": "^4.2.4",
+    "jquery": "1.9.1",
+    "jsqr": "^1.2.0",
+    "node-opencv": "0.0.2-security",
+    "popper.js": "^1.14.7",
     "vue": "^2.5.13",
     "vue-clickaway": "^2.1.0",
     "vue-notifyjs": "^0.3.0",
     "vue-router": "^3.0.1",
-    "vue-template-compiler": "^2.0.0",
-    "jquery": "1.9.1",
-    "popper.js": "^1.14.7"
+    "vue-template-compiler": "^2.0.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.0-beta.9",

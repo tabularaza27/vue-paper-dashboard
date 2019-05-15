@@ -157,3 +157,9 @@ hr {
   text-align: center;
 }
 
+.trans-grey {
+  -webkit-filter: grayscale(100%);
+   -moz-filter: grayscale(100%);
+   filter: grayscale(100%);
+   transition: all 0.8s ease;
+}
