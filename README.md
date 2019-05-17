@@ -29,4 +29,4 @@ npm run build
 Alessandro Amici (alessandro.amic@gmail.com)
 Pietro Bolcato (pietrobolcato@gmail.com)
 Callum Waters (cmwaters19@gmail.com)
-Kai Taylor (insert@mail.com)
+Kai Jeggle (kai.jeggle@gmx.de)
